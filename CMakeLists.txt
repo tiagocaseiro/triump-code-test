@@ -8,7 +8,7 @@ add_executable(code-test
   codetest.cpp  
 )
 
-target_compile_options(code-test  PRIVATE /Wall /WX)
+# target_compile_options(code-test  PRIVATE /Wall /WX)
 
 set(CMAKE_CXX_STANDARD 20)
 set(CMAKE_CXX_STANDARD_REQUIRED ON)

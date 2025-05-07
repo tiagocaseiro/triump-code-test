@@ -42,7 +42,7 @@ public:
     }
 
 private:
-    // FID was unitialized and using before initializing it is Undefined Behavior
+    // FID and FNameLength were unitialized and using before initializing it is Undefined Behavior
     int FID = -1;
     // Set FName to std::string it gives us the length of the string by default
     std::string FName;
